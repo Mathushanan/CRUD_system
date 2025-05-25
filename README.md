@@ -118,5 +118,4 @@ An interactive map of Sri Lanka identifies **high**, **moderate**, and **low** t
 
 ---
 
-<pre><code>```bash # Clone the repository git clone https://github.com/your-username/traffic-fine-system.git cd traffic-fine-system # Setup Frontend cd frontend cp .env.example .env # Optional: Set up environment variables npm install npm run dev & # Runs on http://localhost:5173 # Setup Backend cd ../backend cp local.settings.example.json local.settings.json # Optional: Backend env config npm install -g azure-functions-core-tools@4 --unsafe-perm true # Install Azure Functions Core Tools (if not installed) npm install func start & # Runs on http://localhost:7071 # Setup SQL Server (manual step) # Make sure SQL Server is running # Restore DB from .bak file or run SQL scripts in /database folder # Update connection string in backend/local.settings.json echo "🚀 Frontend running at http://localhost:5173" echo "🛠️ Backend API running at http://localhost:7071" echo "✅ Please ensure SQL Server is configured and connected properly." ```</code></pre>
-
+<pre><code>```bash cd frontend cp .env.example .env # Optional: Set up environment variables npm install npm run dev & # Runs on http://localhost:5173 ```</code></pre>
