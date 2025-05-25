@@ -3,7 +3,7 @@
 ## Overview
 
 The **Digital Traffic Fine Management System** is a comprehensive web-based application designed to transform Sri Lanka’s outdated,
- manual traffic fine management process into an efficient, scalable, and secure digital solution. The platform empowers all stakeholders—System Admins, Station Admins, 
+manual traffic fine management process into an efficient, scalable, and secure digital solution. The platform empowers all stakeholders—System Admins, Station Admins, 
 Traffic Police Officers, and Public Users—with tailored functionality to streamline fine issuance, processing, payment, and analytics.
 
 ---
@@ -57,7 +57,7 @@ This project was developed to:
 - ✅ Secure Stripe-based payment system
 - ✅ Fine dispute resolution module
 - ✅ Geographic violation heatmaps
-- ✅ Internal notification and messaging system
+- ✅ Internal messaging system
 - ✅ Audit trail and system activity logging
 
 ---
@@ -103,7 +103,7 @@ This project was developed to:
 | Payment System                 | Stripe-based secure payment flow with receipts                             |
 | Dispute Module                 | Public users can formally dispute violations with legal tracking           |
 | Geographic Mapping             | Color-coded violation zones (Red, Yellow, Green) on Sri Lankan map         |
-| Notification System            | Internal messaging and alert system                                        |
+| Notification System            | Internal messaging system                                        |
 | Analytics Dashboard            | Charts showing trends like fine volume, revenue, and user data             |
 | Audit Logging                  | System tracks actions with endpoint, IP, and timestamp for transparency    |
 
