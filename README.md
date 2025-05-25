@@ -118,4 +118,40 @@ An interactive map of Sri Lanka identifies **high**, **moderate**, and **low** t
 
 ---
 
-<pre><code>```bash cd frontend cp .env.example .env # Optional: Set up environment variables npm install npm run dev & # Runs on http://localhost:5173 ```</code></pre>
+## 🚀 Getting Started
+
+### Backend Setup
+
+```bash
+cd backend
+cp local.settings.example.json local.settings.json
+dotnet restore
+dotnet build
+func start
+
+```
+
+### Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+## 🧪 Testing
+
+- **Unit & Integration Tests**: Jest  
+- **UI Testing**: React Native Testing Library  
+
+To run frontend tests:
+
+```bash
+cd frontend
+npm test
+```
+
+---
+
